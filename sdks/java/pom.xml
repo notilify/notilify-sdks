@@ -5,7 +5,7 @@
   <version>0.1.0</version>
   <name>notilify</name>
   <description>Official Java SDK for the Notilify transactional SMS API</description>
-  <url>https://github.com/codelinglabs/notilify-sdks</url>
+  <url>https://github.com/notilify/notilify-sdks</url>
   <licenses>
     <license>
       <name>MIT License</name>
@@ -22,13 +22,13 @@
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:https://github.com/codelinglabs/notilify-sdks.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/codelinglabs/notilify-sdks.git</developerConnection>
-    <url>https://github.com/codelinglabs/notilify-sdks</url>
+    <connection>scm:git:https://github.com/notilify/notilify-sdks.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/notilify/notilify-sdks.git</developerConnection>
+    <url>https://github.com/notilify/notilify-sdks</url>
   </scm>
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.com/codelinglabs/notilify-sdks/issues</url>
+    <url>https://github.com/notilify/notilify-sdks/issues</url>
   </issueManagement>
   <properties>
     <maven.compiler.release>11</maven.compiler.release>

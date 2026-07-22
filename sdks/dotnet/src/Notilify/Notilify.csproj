@@ -9,7 +9,7 @@
     <Authors>Notilify</Authors>
     <Company>Notilify</Company>
     <PackageProjectUrl>https://notilify.com</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/codelinglabs/notilify-sdks.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/notilify/notilify-sdks.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>notilify;sms;transactional-sms</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

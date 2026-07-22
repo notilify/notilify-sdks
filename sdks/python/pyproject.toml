@@ -15,8 +15,8 @@ keywords = ["notilify", "sms", "transactional-sms"]
 
 [project.urls]
 Homepage = "https://notilify.com"
-Repository = "https://github.com/codelinglabs/notilify-sdks"
-Issues = "https://github.com/codelinglabs/notilify-sdks/issues"
+Repository = "https://github.com/notilify/notilify-sdks"
+Issues = "https://github.com/notilify/notilify-sdks/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]

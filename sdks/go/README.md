@@ -1,7 +1,7 @@
 # notilify for Go
 
 ```bash
-go get github.com/codelinglabs/notilify-sdks/sdks/go@v0.1.0
+go get github.com/notilify/notilify-sdks/sdks/go@v0.1.1
 ```
 
 ```go
@@ -12,7 +12,7 @@ import (
     "log"
     "os"
 
-    notilify "github.com/codelinglabs/notilify-sdks/sdks/go"
+    notilify "github.com/notilify/notilify-sdks/sdks/go"
 )
 
 func main() {

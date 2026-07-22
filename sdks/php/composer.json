@@ -8,8 +8,8 @@
     { "name": "Notilify", "email": "support@notilify.com" }
   ],
   "support": {
-    "issues": "https://github.com/codelinglabs/notilify-sdks/issues",
-    "source": "https://github.com/codelinglabs/notilify-sdks/tree/main/sdks/php"
+    "issues": "https://github.com/notilify/notilify-sdks/issues",
+    "source": "https://github.com/notilify/notilify-php"
   },
   "require": {
     "php": ">=8.1",

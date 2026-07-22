@@ -9,12 +9,12 @@ This repository is open source under the [MIT License](LICENSE). Contributions a
 | Language | Package | Status | Directory |
 | --- | --- | --- | --- |
 | Node.js | [`notilify`](https://www.npmjs.com/package/notilify) | Published | [`sdks/node`](sdks/node) |
-| Python | `notilify` | Registry release pending | [`sdks/python`](sdks/python) |
-| PHP | `notilify/notilify` | Registry release pending | [`sdks/php`](sdks/php) |
-| Go | `github.com/codelinglabs/notilify-sdks/sdks/go` | Module tag pending | [`sdks/go`](sdks/go) |
-| Ruby | `notilify` | Registry release pending | [`sdks/ruby`](sdks/ruby) |
+| Python | `notilify` | Published | [`sdks/python`](sdks/python) |
+| PHP | [`notilify/notilify`](https://packagist.org/packages/notilify/notilify) | Published | [`sdks/php`](sdks/php) |
+| Go | `github.com/notilify/notilify-sdks/sdks/go` | New module tag pending | [`sdks/go`](sdks/go) |
+| Ruby | `notilify` | Published | [`sdks/ruby`](sdks/ruby) |
 | Java | `com.notilify:notilify` | Registry release pending | [`sdks/java`](sdks/java) |
-| .NET | `Notilify` | Registry release pending | [`sdks/dotnet`](sdks/dotnet) |
+| .NET | [`Notilify`](https://www.nuget.org/packages/Notilify) | Published | [`sdks/dotnet`](sdks/dotnet) |
 
 ## Shared contract
 

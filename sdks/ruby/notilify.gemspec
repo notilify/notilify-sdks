@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 3.0"
   spec.license = "MIT"
   spec.metadata = {
-    "source_code_uri" => "https://github.com/codelinglabs/notilify-sdks/tree/main/sdks/ruby",
-    "bug_tracker_uri" => "https://github.com/codelinglabs/notilify-sdks/issues",
+    "source_code_uri" => "https://github.com/notilify/notilify-sdks/tree/main/sdks/ruby",
+    "bug_tracker_uri" => "https://github.com/notilify/notilify-sdks/issues",
     "rubygems_mfa_required" => "true"
   }
 end

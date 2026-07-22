@@ -3,11 +3,11 @@
   "version": "0.1.1",
   "description": "Official Node.js SDK for the Notilify transactional SMS API",
   "author": "Notilify <support@notilify.com>",
-  "homepage": "https://github.com/codelinglabs/notilify-sdks/tree/main/sdks/node#readme",
-  "bugs": { "url": "https://github.com/codelinglabs/notilify-sdks/issues" },
+  "homepage": "https://github.com/notilify/notilify-sdks/tree/main/sdks/node#readme",
+  "bugs": { "url": "https://github.com/notilify/notilify-sdks/issues" },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codelinglabs/notilify-sdks.git",
+    "url": "git+https://github.com/notilify/notilify-sdks.git",
     "directory": "sdks/node"
   },
   "type": "module",
