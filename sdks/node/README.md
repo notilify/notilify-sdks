@@ -1,5 +1,9 @@
 # notilify for Node.js
 
+```bash
+npm install notilify
+```
+
 ```js
 import Notilify from "notilify";
 

@@ -6,15 +6,15 @@ This repository is open source under the [MIT License](LICENSE). Contributions a
 
 ## SDKs
 
-| Language | Package | Directory |
-| --- | --- | --- |
-| Node.js | `notilify` | [`sdks/node`](sdks/node) |
-| Python | `notilify` | [`sdks/python`](sdks/python) |
-| PHP | `notilify/notilify` | [`sdks/php`](sdks/php) |
-| Go | `notilify` | [`sdks/go`](sdks/go) |
-| Ruby | `notilify` | [`sdks/ruby`](sdks/ruby) |
-| Java | `com.notilify:notilify` | [`sdks/java`](sdks/java) |
-| .NET | `Notilify` | [`sdks/dotnet`](sdks/dotnet) |
+| Language | Package | Status | Directory |
+| --- | --- | --- | --- |
+| Node.js | [`notilify`](https://www.npmjs.com/package/notilify) | Published | [`sdks/node`](sdks/node) |
+| Python | `notilify` | Registry release pending | [`sdks/python`](sdks/python) |
+| PHP | `notilify/notilify` | Registry release pending | [`sdks/php`](sdks/php) |
+| Go | `github.com/codelinglabs/notilify-sdks/sdks/go` | Module tag pending | [`sdks/go`](sdks/go) |
+| Ruby | `notilify` | Registry release pending | [`sdks/ruby`](sdks/ruby) |
+| Java | `com.notilify:notilify` | Registry release pending | [`sdks/java`](sdks/java) |
+| .NET | `Notilify` | Registry release pending | [`sdks/dotnet`](sdks/dotnet) |
 
 ## Shared contract
 
@@ -40,4 +40,4 @@ SDKs begin at `0.1.0` while the common API and packaging are validated. Language
 
 ## Validation
 
-The `SDK contracts` GitHub Actions workflow runs each language's request, authentication, idempotency, response, and error checks. It also validates or builds the npm, Python, Composer, RubyGems, Maven, and NuGet package artifacts before changes merge into `main`.
+Run `./scripts/check-sdks.sh` locally. It exercises each language's request, authentication, idempotency, response, and error checks, then validates or builds the npm, Python, Composer, RubyGems, Maven, and NuGet packages using free local toolchains. It does not require hosted CI or an organization billing plan.

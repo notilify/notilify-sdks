@@ -1,6 +1,6 @@
 {
   "name": "notilify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Official Node.js SDK for the Notilify transactional SMS API",
   "author": "Notilify <support@notilify.com>",
   "homepage": "https://github.com/codelinglabs/notilify-sdks/tree/main/sdks/node#readme",

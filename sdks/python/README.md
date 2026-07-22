@@ -1,5 +1,9 @@
 # notilify for Python
 
+```bash
+python -m pip install notilify
+```
+
 ```python
 import os
 from notilify import Notilify

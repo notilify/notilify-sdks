@@ -1,6 +1,12 @@
 # notilify for PHP
 
+```bash
+composer require notilify/notilify
+```
+
 ```php
+require __DIR__ . '/vendor/autoload.php';
+
 use Notilify\Client;
 
 $client = new Client(getenv('NOTILIFY_API_KEY'));

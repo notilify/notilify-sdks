@@ -7,6 +7,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.time.Duration;
 
+/** Sends transactional messages through the Notilify API. */
 public final class NotilifyClient {
     private static final String DEFAULT_BASE_URL = "https://api.notilify.com";
     private final String apiKey;
@@ -14,10 +15,23 @@ public final class NotilifyClient {
     private final Duration timeout;
     private final HttpClient httpClient;
 
+    /**
+     * Creates a client using the production API and a ten-second timeout.
+     *
+     * @param apiKey a server-side Notilify API key
+     */
     public NotilifyClient(String apiKey) {
         this(apiKey, DEFAULT_BASE_URL, Duration.ofSeconds(10), HttpClient.newHttpClient());
     }
 
+    /**
+     * Creates a client with explicit transport settings.
+     *
+     * @param apiKey a server-side Notilify API key
+     * @param baseUrl the API base URL
+     * @param timeout the request timeout
+     * @param httpClient the HTTP client used to send requests
+     */
     public NotilifyClient(String apiKey, String baseUrl, Duration timeout, HttpClient httpClient) {
         if (apiKey == null || apiKey.trim().isEmpty()) throw new IllegalArgumentException("A Notilify API key is required");
         this.apiKey = apiKey;
@@ -26,6 +40,13 @@ public final class NotilifyClient {
         this.httpClient = httpClient;
     }
 
+    /**
+     * Submits one message to Notilify.
+     *
+     * @param input the message fields and optional idempotency key
+     * @return the accepted API response
+     * @throws NotilifyException when the request fails or the API returns a non-2xx response
+     */
     public NotilifyResponse sendMessage(SendMessageRequest input) {
         validateMessage(input);
         String json = String.format(
