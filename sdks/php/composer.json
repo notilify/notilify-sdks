@@ -1,0 +1,23 @@
+{
+  "name": "notilify/notilify",
+  "description": "Official PHP SDK for the Notilify transactional SMS API",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://notilify.com",
+  "authors": [
+    { "name": "Notilify", "email": "support@notilify.com" }
+  ],
+  "support": {
+    "issues": "https://github.com/codelinglabs/notilify-sdks/issues",
+    "source": "https://github.com/codelinglabs/notilify-sdks/tree/main/sdks/php"
+  },
+  "require": {
+    "php": ">=8.1",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": { "Notilify\\": "src/" }
+  }
+}
