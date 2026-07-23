@@ -4,6 +4,8 @@ Official, dependency-light clients for the [Notilify API](https://docs.notilify.
 
 This repository is open source under the [MIT License](LICENSE). Contributions and security reports are welcome; review [CONTRIBUTING.md](CONTRIBUTING.md), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), and [SECURITY.md](SECURITY.md) before participating.
 
+Maintainers can use the free local workflow in [RELEASING.md](RELEASING.md) to verify and publish package updates.
+
 ## SDKs
 
 | Language | Package | Status | Directory |
