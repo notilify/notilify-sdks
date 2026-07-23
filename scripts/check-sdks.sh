@@ -36,7 +36,11 @@ mkdir -p "$work_dir/artifacts"
 (
   cd "$sdk_root/ruby"
   ruby test/client_test.rb
-  gem build notilify.gemspec --output "$work_dir/artifacts/notilify.gem"
+  ruby_gem="$work_dir/artifacts/notilify.gem"
+  ruby_gem_home="$work_dir/ruby-gems"
+  gem build notilify.gemspec --output "$ruby_gem"
+  GEM_HOME="$ruby_gem_home" GEM_PATH="$ruby_gem_home" gem install "$ruby_gem" --no-document
+  GEM_HOME="$ruby_gem_home" GEM_PATH="$ruby_gem_home" ruby -e 'require "notilify"; abort "Notilify::Client is unavailable" unless defined?(Notilify::Client)'
 )
 
 (

@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name = "notilify"
-  spec.version = "0.1.0"
+  spec.version = "0.1.1"
   spec.summary = "Official Ruby SDK for the Notilify transactional SMS API"
   spec.authors = ["Notilify"]
   spec.email = ["support@notilify.com"]

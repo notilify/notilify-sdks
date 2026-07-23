@@ -14,3 +14,5 @@ response = client.send_message(
   idempotency_key: "verification-482913"
 )
 ```
+
+Requires Ruby 3.0 or newer.
