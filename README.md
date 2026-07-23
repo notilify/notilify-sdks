@@ -5,6 +5,7 @@ Seven official, dependency-light clients for the [Notilify API](https://docs.not
 This repository is open source under the [MIT License](LICENSE). Contributions and security reports are welcome; review [CONTRIBUTING.md](CONTRIBUTING.md), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), and [SECURITY.md](SECURITY.md) before participating.
 
 Maintainers can use the free local workflow in [RELEASING.md](RELEASING.md) to verify and publish package updates.
+Planned package capabilities are tracked in [TODO.md](TODO.md).
 
 ## Send your first SMS
 
@@ -54,4 +55,7 @@ SDKs begin at `0.1.0` while the common API and packaging are validated. Language
 
 ## Validation
 
-Run `./scripts/check-sdks.sh` locally. It exercises each language's request, authentication, idempotency, response, and error checks, then validates or builds the npm, Python, Composer, RubyGems, Maven, and NuGet packages using free local toolchains. It does not require hosted CI or an organization billing plan.
+Run `./scripts/check-sdks.sh` locally. It exercises each language's request,
+authentication, idempotency, response, and error checks, then validates or
+builds the npm, Python, Composer, RubyGems, Maven, and NuGet packages using free
+local toolchains. It does not publish packages or require a hosted CI service.
