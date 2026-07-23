@@ -1,20 +1,32 @@
 # Notilify SDKs
 
-Official, dependency-light clients for the [Notilify API](https://docs.notilify.com). Every package is named `notilify` in its language ecosystem and shares the same first-release contract.
+Seven official, dependency-light clients for the [Notilify API](https://docs.notilify.com) are now live. Start with the copy-ready [quickstarts](https://notilify.com/docs/quickstarts), then choose the package for your stack below.
 
 This repository is open source under the [MIT License](LICENSE). Contributions and security reports are welcome; review [CONTRIBUTING.md](CONTRIBUTING.md), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), and [SECURITY.md](SECURITY.md) before participating.
 
 Maintainers can use the free local workflow in [RELEASING.md](RELEASING.md) to verify and publish package updates.
+
+## Send your first SMS
+
+```js
+import Notilify from "notilify";
+const client = new Notilify(process.env.NOTILIFY_API_KEY);
+await client.sendMessage({
+  from: "NOTILIFY", to: "+14155552671", message: "Hello from Notilify",
+});
+```
+
+That is the complete Node.js send. See the [quickstarts](https://notilify.com/docs/quickstarts) for cURL, Python, PHP, Go, Ruby, Java, and C#.
 
 ## SDKs
 
 | Language | Package | Status | Directory |
 | --- | --- | --- | --- |
 | Node.js | [`notilify`](https://www.npmjs.com/package/notilify) | Published | [`sdks/node`](sdks/node) |
-| Python | `notilify` | Published | [`sdks/python`](sdks/python) |
+| Python | [`notilify`](https://pypi.org/project/notilify/) | Published | [`sdks/python`](sdks/python) |
 | PHP | [`notilify/notilify`](https://packagist.org/packages/notilify/notilify) | Published | [`sdks/php`](sdks/php) |
 | Go | [`github.com/notilify/notilify-sdks/sdks/go`](https://pkg.go.dev/github.com/notilify/notilify-sdks/sdks/go) | Published | [`sdks/go`](sdks/go) |
-| Ruby | `notilify` | Published | [`sdks/ruby`](sdks/ruby) |
+| Ruby | [`notilify`](https://rubygems.org/gems/notilify) | Published | [`sdks/ruby`](sdks/ruby) |
 | Java | [`com.notilify:notilify`](https://central.sonatype.com/artifact/com.notilify/notilify/0.1.0) | Published | [`sdks/java`](sdks/java) |
 | .NET | [`Notilify`](https://www.nuget.org/packages/Notilify) | Published | [`sdks/dotnet`](sdks/dotnet) |
 
