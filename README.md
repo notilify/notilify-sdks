@@ -1,6 +1,6 @@
 # Notilify SDKs
 
-Seven official, dependency-light clients for the [Notilify API](https://docs.notilify.com) are now live. Start with the copy-ready [quickstarts](https://notilify.com/docs/quickstarts), then choose the package for your stack below.
+Seven official, dependency-light clients for the [Notilify API](https://docs.notilify.com) are now live. Start with the hosted [SDK documentation](https://docs.notilify.com/#description/introduction), then choose the package for your stack below.
 
 This repository is open source under the [MIT License](LICENSE). Contributions and security reports are welcome; review [CONTRIBUTING.md](CONTRIBUTING.md), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), and [SECURITY.md](SECURITY.md) before participating.
 
@@ -16,7 +16,7 @@ await client.sendMessage({
 });
 ```
 
-That is the complete Node.js send. See the [quickstarts](https://notilify.com/docs/quickstarts) for cURL, Python, PHP, Go, Ruby, Java, and C#.
+That is the complete Node.js send. See the hosted [SDK documentation](https://docs.notilify.com/#description/introduction) for Python, PHP, Go, Ruby, Java, and C#.
 
 ## SDKs
 
